@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "oracle-db": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/ORACLE-MCP-SERVER/dist/index.js"
+      ],
+      "env": {
+        "ORACLE_USER": "your_username",
+        "ORACLE_PASSWORD": "your_password",
+        "ORACLE_HOST": "localhost",
+        "ORACLE_PORT": "1521",
+        "ORACLE_SERVICE_NAME": "XEPDB1"
+      }
+    }
+  }
+}
+
