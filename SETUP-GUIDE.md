@@ -46,7 +46,7 @@ The script will:
 After the database is running, create your `.env` file:
 
 ```bash
-cp .env.example .env
+cp .env.example.example .env.example
 ```
 
 Edit `.env` with these values:

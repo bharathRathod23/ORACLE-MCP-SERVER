@@ -24,7 +24,7 @@ fi
 echo "✅ Server files found"
 echo ""
 
-# Check if .env file exists
+# Check if .env.example file exists
 if [ ! -f ".env" ]; then
     echo "⚠️  Warning: .env file not found"
     echo "   Database connection may fail"

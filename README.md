@@ -122,7 +122,7 @@ npm install
 
 3. Configure database connection by copying `.env.example` to `.env`:
 ```bash
-cp .env.example .env
+cp .env.example.example .env.example
 ```
 
 4. Edit `.env` with your Oracle database credentials:
